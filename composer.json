@@ -1,0 +1,33 @@
+{
+  "name": "marsaldev/democarrier",
+  "description": "This is a demo module to explain how to develop a carrier module",
+  "license": "AFL-3.0",
+  "authors": [
+    {
+      "name": "Marco Salvatore",
+      "email": "hi@marcosalvatore.dev"
+    }
+  ],
+  "config": {
+    "platform": {
+      "php": "8.0.28"
+    },
+    "preferred-install": "dist",
+    "classmap-authoritative": true,
+    "optimize-autoloader": true,
+    "sort-packages": true,
+    "prepend-autoloader": false
+  },
+  "autoload": {
+    "psr-4": {
+      "MarSalDev\\Module\\DemoCarrier\\": "src/"
+    },
+    "classmap": [
+      "democarrier.php"
+    ],
+    "exclude-from-classmap": []
+  },
+  "require": {
+  },
+  "type": "prestashop-module"
+}

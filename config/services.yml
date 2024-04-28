@@ -1,0 +1,8 @@
+services:
+
+  marsaldev.module.democarrier.database.install:
+    class: MarSalDev\Module\DemoCarrier\Database\Install
+    public: true
+    arguments:
+      - prestashop.adapter.data_provider.language
+      - prestashop.adapter.legacy.configuration
